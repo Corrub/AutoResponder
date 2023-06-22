@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 TOKEN_FILE = "token.json"
 CREDENTIALS_FILE = "credentials.json"
-SENDER_EMAIL = "birth.of.kira.2k17@gmail.com"
+SENDER_EMAIL = "email@example.com"
 REDIRECT_URI = "http://localhost:8080"
 MIN_INTERVAL = 45  # Minimum interval between replies in seconds
 MAX_INTERVAL = 120  # Maximum interval between replies in seconds
@@ -25,7 +25,7 @@ def send_auto_response(service, sender_email):
     <html>
         <body>
             <p>Thank you for your email. I am currently on vacation and will reply to your message after my return.</p>
-            <p>Best regards,<br>Mohan N</p>
+            <p>Best regards,<br>Your Name</p>
         </body>
     </html>
     """
