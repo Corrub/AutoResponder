@@ -3,6 +3,8 @@ Python App to auto respond to email when you are on Vacation.
 
 Visit https://console.developers.google.com, create a new project, enable the Gmail API, and download the credentials.json file for the project.
 
+Add http://localhost:8080 to your redirect uri
+
 Install the required Python libraries by running the following command in your terminal:
 
 ```pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client```
