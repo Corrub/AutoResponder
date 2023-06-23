@@ -9,4 +9,6 @@ Install the required Python libraries by running the following command in your t
 
 Update the `SENDER_EMAIL` constant with your email address.
 
+NOTE: You have to create label named **Auto Replied** in your gmail account
+
 This app uses the Gmail API to retrieve unread emails and extract the sender's email address from the headers. It then sends an auto-response email using the Gmail API. The **'token.json'** file is used to store the user's credentials, and the **'credentials.json'** file contains the application's credentials.
