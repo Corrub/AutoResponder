@@ -1,9 +1,11 @@
 # AutoResponder
 Python App to auto respond to email when you are on Vacation.
 
-Visit https://console.developers.google.com, create a new project, enable the Gmail API, and download the credentials.json file for the project.
+You need `credentials.json` file for the program to run. To get your credentials follow below steps
 
-Add http://localhost:8080 to your redirect uri
+Visit https://console.developers.google.com > Create a new project > Go to credentials section > Select create credentials > OAuth 2.0 Client IDs > Application Type > Web Application > Give it any name > Add http://localhost:8080 to your redirect uri > Click Create 
+
+Enable the Gmail API, and download the `credentials.json` file and place it in the project root directory.
 
 Install the required Python libraries by running the following command in your terminal:
 
